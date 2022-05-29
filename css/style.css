@@ -45,6 +45,13 @@ body{
 .ptb-120{
     padding: 120px 0;
 }
+.w-100{
+    width: 100%;
+}
+.slide-button button:hover{
+    background-color: transparent;
+    color: #FD4766;
+}
 /* Start Header Main*/
 .header-main{
     position: absolute;
@@ -277,10 +284,7 @@ body{
     font-size: 1.5rem;
     padding: 0 150px;
 }
-.carousel-main .carouselmain-items .carouselmain-item .carouselmain-caption .slide-button button:hover{
-    background-color: transparent;
-    color: #FD4766;
-}
+
 .carousel-main .carouselmain-items .slick-slide.slick-current .carouselmain-caption .heading-title{
     animation: cusFadeinUp 0.8s;
     animation-timing-function: ease-in-out;
@@ -366,6 +370,12 @@ body{
 }
 /* End Service Main */
 /* Start Portfolio Main  */
+.portfolio-main{
+    background-image: url("../image/bg-image-3.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .portfolio-main-content .container .row > [class*=col] figure img{
     max-width: 100%;
     transition: all 0.5s;
@@ -451,6 +461,55 @@ body{
     /* opacity: 1; */
 }
 /* End Portfolio Main */
+/* Start About Main */
+.about-main  .row > [class*=col] .about-tab-main{
+    padding-left: 15px;
+}
+.about-main  .row > [class*=col] .nav-pills{
+    border: 1px solid #E6E6E6;
+    border-radius: 100px;
+}
+.about-main  .row > [class*=col] .nav-pills .nav-link{
+    border-radius: 100px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 0.89rem;
+    color: rgba(29,29,36,.75);
+    display: inline-block;
+    padding: 0.8rem 34px;
+    /* margin: -1px -2px -1px; */
+}
+.about-main  .row > [class*=col] .nav-pills .nav-link.active{
+    background-color: #FD4766;
+    color: white;
+  
+}
+.about-main  .row > [class*=col] .tab-content .tab-pane:nth-child(1) ul{
+    list-style: none;
+    padding: 0;
+}
+.about-main  .row > [class*=col] .tab-content .tab-pane:nth-child(1) ul li{
+    color: #7e7e7e;
+    font-size: 16px;
+    line-height: inherit;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.about-main  .row > [class*=col] .tab-content .tab-pane:nth-child(1) ul li svg{
+    color: #FD4766;
+    margin-right: 5px;
+}
+.about-main  .row > [class*=col] .tab-content .tab-pane:nth-child(1) h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.about-main  .row > [class*=col] .tab-content .tab-pane p{
+    font-weight: 300;
+    color: #717173;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* End About Main */
 @keyframes cusFadeinUp{
     0%{
         opacity: 0;
