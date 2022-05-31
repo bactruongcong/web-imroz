@@ -5,23 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- BOOTSTRAP 5.0 -->
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-    />
+    /> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- SLICK LIBARY -->
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <!-- // Add the new slick-theme.css if you want the default styling -->
     <!-- <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/> -->
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
-
     <!-- FONT POPPINS  -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <!-- LINE-AWSOME -->
     <link
       rel="stylesheet"
@@ -38,7 +35,7 @@
   </head>
   <body>
     <!-- Start Header Main/Area -->
-    <header class="header-main">
+    <!-- <header class="header-main">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <div class="header-main-logo">
@@ -46,237 +43,240 @@
               <img src="./image/logo.png" alt="logo" />
             </a>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link"
-                  href="#"
-                  id="navbarDarkDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Home
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark show2"
-                  aria-labelledby="navbarDarkDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-
-                  <li><a class="dropdown-item" href="#">Main Demo</a></li>
-                  <li><a class="dropdown-item" href="#">Main Demo Dark</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Personal Portfolio</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Interior Landing</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Portfolio One Page 02</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Minimal Portfolio</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Digital Agency</a></li>
-                  <li><a class="dropdown-item" href="#">Creative Agency</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Corporate Business</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Portfolio One Page</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Creative Agency Landing</a
-                    >
-                  </li>
-                  <li><a class="dropdown-item" href="#">Business</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Designer Portfolio</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Home Particles</a></li>
-                  <li><a class="dropdown-item" href="#">Studio Agency</a></li>
-                  <li><a class="dropdown-item" href="#">Startup</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Creative Portfolio</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link"
-                  href="#"
-                  id="navbarDarkDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark show2"
-                  aria-labelledby="navbarDarkDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Service</a></li>
-                  <li><a class="dropdown-item" href="#">Service Details</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link"
-                  href="#"
-                  id="navbarDarkDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark show2"
-                  aria-labelledby="navbarDarkDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Blog List</a></li>
-                  <li><a class="dropdown-item" href="#">Blog Details</a></li>
-                  <li><a class="dropdown-item" href="#">Service</a></li>
-                  <li><a class="dropdown-item" href="#">Service Details</a></li>
-                  <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Portfolio Details</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">404</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link"
-                  href="#"
-                  id="navbarDarkDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Block
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark show2"
-                  aria-labelledby="navbarDarkDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                  <li><a class="dropdown-item" href="#">Team</a></li>
-                  <li><a class="dropdown-item" href="#">Service</a></li>
-                  <li><a class="dropdown-item" href="#">Video Popup</a></li>
-                  <li><a class="dropdown-item" href="#">Progressbar</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Gallery</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Blog List</a></li>
-                  <li><a class="dropdown-item" href="#">Clint Logo</a></li>
-                  <li><a class="dropdown-item" href="#">Contact Form</a></li>
-                  <li><a class="dropdown-item" href="#">Google Map</a></li>
-                  <li><a class="dropdown-item" href="#">Columns</a></li>
-                  <li><a class="dropdown-item" href="#">Pricing Table</a></li>
-                  <li><a class="dropdown-item" href="#">Button</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <div class="header-main-btn-buy">
-              <button class="btn-defaut btn-buy">BUY NOW</button>
+          <div class="header-main-menu d-flex align-items-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Home
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark show2"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Main Demo</a></li>
+                    <li><a class="dropdown-item" href="#">Main Demo Dark</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Personal Portfolio</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Interior Landing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Portfolio One Page 02</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Minimal Portfolio</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Digital Agency</a></li>
+                    <li><a class="dropdown-item" href="#">Creative Agency</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Corporate Business</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Portfolio One Page</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Creative Agency Landing</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Business</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Designer Portfolio</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Home Particles</a></li>
+                    <li><a class="dropdown-item" href="#">Studio Agency</a></li>
+                    <li><a class="dropdown-item" href="#">Startup</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Creative Portfolio</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark show2"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Service</a></li>
+                    <li><a class="dropdown-item" href="#">Service Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark show2"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Blog List</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                    <li><a class="dropdown-item" href="#">Service</a></li>
+                    <li><a class="dropdown-item" href="#">Service Details</a></li>
+                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Portfolio Details</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">404</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Block
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark show2"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                    <li><a class="dropdown-item" href="#">Team</a></li>
+                    <li><a class="dropdown-item" href="#">Service</a></li>
+                    <li><a class="dropdown-item" href="#">Video Popup</a></li>
+                    <li><a class="dropdown-item" href="#">Progressbar</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gallery</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Blog List</a></li>
+                    <li><a class="dropdown-item" href="#">Clint Logo</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Form</a></li>
+                    <li><a class="dropdown-item" href="#">Google Map</a></li>
+                    <li><a class="dropdown-item" href="#">Columns</a></li>
+                    <li><a class="dropdown-item" href="#">Pricing Table</a></li>
+                    <li><a class="dropdown-item" href="#">Button</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
+            <div class="header-main-btn-buy slide-button">
+              <button class="btn-defaut btn-slide-pink btn-opacity">BUY NOW</button>
+            </div>
+            <div class="togle-menu d-block d-lg-none pl--20 pl_sm--10">
+              <span class="menutrigger text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+              </span>
+          </div>
           </div>
         </div>
       </nav>
-    </header>
+    </header> -->
     <!-- End Header Main/Area -->
     <!-- Start Carousel Main -->
-    <section class="carousel-main">
+    <!-- <section class="carousel-main">
       <div class="carouselmain-items">
         <div class="carouselmain-item text-center bg-image-custom">
-          <div class="carouselmain-caption container pe-5 ps-5">
-            <h1 class="heading-title">UX Research.</h1>
-            <p class="p-descirpttion">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration.
-            </p>
-            <div class="slide-button">
-              <button class="btn-defaut">CONTACT US</button>
+          <div class="carousel-banner d-flex align-items-center justify-content-center">
+            <div class="carouselmain-caption container">
+              <h1 class="heading-title">UX Research.</h1>
+              <p class="p-descirpttion">
+                There are many variations of passages of
+                Lorem Ipsum available but the majority have suffered alteration.
+                                        
+              </p>
+              <div class="slide-button">
+                <button class="btn-defaut">CONTACT US</button>
+              </div>
             </div>
           </div>
         </div>
         <div class="carouselmain-item text-center bg-image-custom">
-          <div class="carouselmain-caption container pe-5 ps-5">
-            <h1 class="heading-title">Marketing</h1>
-            <p class="p-descirpttion">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration.
-            </p>
-            <div class="slide-button">
-              <button class="btn-defaut">CONTACT US</button>
+          <div class="carousel-banner d-flex align-items-center justify-content-center">
+            <div class="carouselmain-caption container">
+              <h1 class="heading-title">Marketing</h1>
+              <p class="p-descirpttion">
+                There are many variations of passages of Lorem Ipsum available but
+                the majority have suffered alteration.
+              </p>
+              <div class="slide-button">
+                <button class="btn-defaut">CONTACT US</button>
+              </div>
             </div>
           </div>
         </div>
         <div class="carouselmain-item text-center bg-image-custom">
-          <div class="carouselmain-caption container pe-5 ps-5">
-            <h1 class="heading-title">Development</h1>
-            <p class="p-descirpttion">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration.
-            </p>
-            <div class="slide-button">
-              <button class="btn-defaut">CONTACT US</button>
+          <div class="carousel-banner d-flex align-items-center justify-content-center">
+            <div class="carouselmain-caption container">
+              <h1 class="heading-title">Development</h1>
+              <p class="p-descirpttion">
+                There are many variations of passages of Lorem Ipsum available but
+                the majority have suffered alteration.
+              </p>
+              <div class="slide-button">
+                <button class="btn-defaut">CONTACT US</button>
+              </div>
             </div>
           </div>
         </div>
         <div class="carouselmain-item text-center bg-image-custom">
-          <div class="carouselmain-caption container pe-5 ps-5">
-            <h1 class="heading-title">UX Research.</h1>
-            <p class="p-descirpttion">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration.
-            </p>
-            <div class="slide-button">
-              <button class="btn-defaut">CONTACT US</button>
+          <div class="carousel-banner d-flex align-items-center justify-content-center">
+            <div class="carouselmain-caption container">
+              <h1 class="heading-title">UX Research.</h1>
+              <p class="p-descirpttion">
+                There are many variations of passages of Lorem Ipsum available but
+                the majority have suffered alteration.
+              </p>
+              <div class="slide-button">
+                <button class="btn-defaut">CONTACT US</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Carousel Main-->
     <!-- Start Service Main -->
-    <section class="service-main ptb-120">
+    <!-- <section class="service-main ptb-120">
       <header class="service-main-header text-center mb-5">
         <span class="subtitle">What we can do for you</span>
         <h1 class="title">Our Awesome Service</h1>
-        <p class="description">There are many variations of passages of Lorem Ipsum available,
-          <br>but the majority have suffered alteration.</p>
+        <p class="description">There are many variations of passages of Lorem Ipsum available,<br>but the majority have suffered alteration.</p>
       </header>
       <main class="service-main-content">
         <div class="container">
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="main-content-detail">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
@@ -288,7 +288,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="main-content-detail">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>                 </div>
@@ -299,7 +299,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="main-content-detail">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>                </div>
@@ -310,7 +310,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="main-content-detail">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>                </div>
@@ -321,7 +321,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="main-content-detail">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>                </div>
@@ -332,7 +332,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="main-content-detail">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>                </div>
@@ -346,10 +346,10 @@
           </div>
         </div>
       </main>
-    </section>
+    </section> -->
     <!-- End Service Main-->
     <!-- Start Portfolio Main -->
-    <seciton>
+    <!-- <seciton>
       <div class="portfolio-main ptb-120">
         <header class="portfolio-main-header text-center mb-5">
           <span class="subtitle">Our complete project</span>
@@ -357,202 +357,555 @@
           <p class="description">There are many variations of passages of Lorem Ipsum available,
             <br>but the majority have suffered alteration.</p>
         </header>
-        <div class="portfolio-main-content">
+        <div class="portfolio-main-content content-defaut">
           <div class="container">
             <div class="row">
-              <div class="col-4">
+              <div class="col-lg-4 col-sm-6 col-12">
                 <figure>
                   <img src="./image/portfolio-4.jpg" alt="">
                   <figcaption class="text-center">
-                    <div class="content-top"><a href="#">Development</a></div>
-                    <h3 class="title"><a href="#">Web Design</a></h3>
-                    <div class="porfolio-hover">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro.</p>
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">Development</a></div>
+                      <h3 class="title"><a href="#">Web Design</a></h3>
                     </div>
+                    <div class="porfolio-hover">
+                      <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>        
+                     </div>
                   </figcaption>
+                  <a class="transparent_link" href="#"></a>
                 </figure>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-sm-6 col-12">
                 <figure>
                   <img src="./image/portfolio-5.jpg" alt="">
                   <figcaption class="text-center">
-                    <div class="content-top"><a href="#">Development</a></div>
-                    <h3 class="title"><a href="#">Web Design</a></h3>
-                    <div class="porfolio-hover">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro.</p>
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">Product Design</a></div>
+                      <h3 class="title"><a href="#">App Development</a></h3>
                     </div>
+                    <div class="porfolio-hover">
+                      <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>        
+                     </div>
                   </figcaption>
+                  <a class="transparent_link" href="#"></a>
                 </figure>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-sm-6 col-12">
                 <figure>
                   <img src="./image/portfolio-6.jpg" alt="">
                   <figcaption class="text-center">
-                    <div class="content-top"><a href="#">Development</a></div>
-                    <h3 class="title"><a href="#">Web Design</a></h3>
-                    <div class="porfolio-hover">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro.</p>
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">Application</a></div>
+                      <h3 class="title"><a href="#">Photoshop Design</a></h3>
                     </div>
+                    <div class="porfolio-hover">
+                      <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>        
+                     </div>
                   </figcaption>
+                  <a class="transparent_link" href="#"></a>
                 </figure>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-sm-6 col-12">
                 <figure>
                   <img src="./image/portfolio-7.jpg" alt="">
                   <figcaption class="text-center">
-                    <div class="content-top"><a href="#">Development</a></div>
-                    <h3 class="title"><a href="#">Web Design</a></h3>
-                    <div class="porfolio-hover">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro.</p>
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">Web Design</a></div>
+                      <h3 class="title"><a href="#">Website Design</a></h3>
                     </div>
+                    <div class="porfolio-hover">
+                      <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>        
+                     </div>
                   </figcaption>
+                  <a class="transparent_link" href="#"></a>
                 </figure>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-sm-6 col-12">
                 <figure>
                   <img src="./image/portfolio-8.jpg" alt="">
                   <figcaption class="text-center">
-                    <div class="content-top"><a href="#">Development</a></div>
-                    <h3 class="title"><a href="#">Web Design</a></h3>
-                    <div class="porfolio-hover">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro.</p>
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">Application</a></div>
+                      <h3 class="title"><a href="#">Web Application</a></h3>
                     </div>
+                    <div class="porfolio-hover">
+                      <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>        
+                     </div>
                   </figcaption>
+                  <a class="transparent_link" href="#"></a>
                 </figure>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-sm-6 col-12">
                 <figure>
                   <img src="./image/portfolio-9.jpg" alt="">
                   <figcaption class="text-center">
-                    <div class="content-top"><a href="#">Development</a></div>
-                    <h3 class="title"><a href="#">Web Design</a></h3>
-                    <div class="porfolio-hover">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro.</p>
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">Photoshop</a></div>
+                      <h3 class="title"><a href="#">Photo Editing</a></h3>
                     </div>
+                    <div class="porfolio-hover">
+                      <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>        
+                     </div>
                   </figcaption>
+                  <a class="transparent_link" href="#"></a>
                 </figure>
               </div>
               <div class="slide-button text-center mt-5">
-                <button class="btn-defaut">CONTACT US</button>
+                <button class="btn-defaut">VIEW PROJECT</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </seciton>
+    </seciton> -->
     <!-- End Portfolio Main -->
     <!-- Start About Main -->
-    <section class="about-main">
+   <!-- <section class="about-main ptb-120">
       <div class="container">
         <div class="row">
-          <div class="col-5">
+          <div class="col-lg-5">
             <div class="about-left">
-              <img class="w-100 rounded-3" src="./image/about-3.jpg" alt="About Images">
+              <img class="w-100" src="./image/about-3.jpg" alt="About Images">
             </div>
           </div>
-          <div class="col-7">
-            <header class="about-main-header text-left mb-5">
-              <span class="subtitle">Our company about</span>
-              <h1 class="title">About</h1>
-              <p class="description p-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or <br>
-                randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-              </p>
-            </header>
-            <div class="about-tab-main">
-              <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Our History</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Our Mission</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Our Vision</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-support-tab" data-bs-toggle="pill" data-bs-target="#pills-support" type="button" role="tab" aria-controls="pills-support" aria-selected="false">Support</button>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                  <h3>Lorem ipsum dolor sit.</h3>
-                  <ul>
-                    <li>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                      The Philosophy Of business analytics
-                    </li>
-                    <li>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                      Fast-Track Your business
-                      </li>
-                    <li>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                      Lies And Damn Lies About business
-                    </li>
-                    <li>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                      The Ultimate Deal On business
-                    </li>
-                  </ul>
-                </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                  <p>
-                    Fatima ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
-                  </p>
-                  <p>
-                    Jannin ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                  <p>
-                    Fatima ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
-                  </p>
-                  <p>
-                    Jannin ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="support-tab">
-                  <p>
-                    Fatima ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
-                  </p>
-                  <p>
-                    Jannin ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
-                  </p>
+          <div class="col-lg-7">
+            <div class="about-right">
+              <header class="about-main-header text-left">
+                <span class="subtitle">Our company about</span>
+                <h1 class="title">About</h1>
+                <p class="description p-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+                  randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+                </p>
+              </header>
+              <div class="tab-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 about-tab-main container">
+                      <ul class="nav" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-home-about" type="button" role="tab" aria-controls="pills-home-about" aria-selected="true">Our History</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-mission-tab" data-bs-toggle="pill" data-bs-target="#pills-mission" type="button" role="tab" aria-controls="pills-mission" aria-selected="false">Our Mission</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-vistion-tab" data-bs-toggle="pill" data-bs-target="#pills-vistion" type="button" role="tab" aria-controls="pills-vistion" aria-selected="false">Our Vision</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-support-tab" data-bs-toggle="pill" data-bs-target="#pills-support" type="button" role="tab" aria-controls="pills-support" aria-selected="false">Support</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home-about" role="tabpanel" aria-labelledby="pills-home-about-tab">
+                          <h3>Lorem ipsum dolor sit.</h3>
+                          <ul>
+                            <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                              The Philosophy Of business analytics
+                            </li>
+                            <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                              Fast-Track Your business
+                              </li>
+                            <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                              Lies And Damn Lies About business
+                            </li>
+                            <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                              The Ultimate Deal On business
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="tab-pane fade" id="pills-mission" role="tabpanel" aria-labelledby="pills-mission-tab">
+                          <p>
+                            Fatima ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
+                          </p>
+                          <p>
+                            Jannin ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-vistion" role="tabpanel" aria-labelledby="pills-vistion-tab">
+                          <p>
+                            Fatima ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
+                          </p>
+                          <p>
+                            Jannin ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="support-tab">
+                          <p>
+                            Fatima ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
+                          </p>
+                          <p>
+                            Jannin ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section>  -->
     <!-- End About Main  -->
     <!-- Start Testimonial Main -->
-    <section class="testimonial-main"></section>
+    <!-- <section class="testimonial-main ptb-120">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-tab1" role="tabpanel" aria-labelledby="pills-tab1-tab">
+                  <div class="inner">
+                    <p>Afifa Sampa The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                        below for those interested. Sections Bonorum et Malorum original.</p>
+                </div>
+                  <div class="author-info">
+                    <h6><span>Afifa Sampa </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab2" role="tabpanel" aria-labelledby="pills-tab2-tab">
+                <div class="inner">
+                  <p>John The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>John Nira </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab3" role="tabpanel" aria-labelledby="pills-tab3-tab">
+                <div class="inner">
+                  <p>Jone The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>Jone Jane </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab4" role="tabpanel" aria-labelledby="pills-tab4-tab">
+                <div class="inner">
+                  <p>Janen The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>Janen Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab5" role="tabpanel" aria-labelledby="pills-tab5-tab">
+                <div class="inner">
+                  <p>Afrin The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab6" role="tabpanel" aria-labelledby="pills-tab6-tab">
+                <div class="inner">
+                  <p>Irin The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>Irin Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab7" role="tabpanel" aria-labelledby="pills-tab7-tab">
+                <div class="inner">
+                  <p>Mohima The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>Mohima Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="pills-tab8" role="tabpanel" aria-labelledby="pills-tab8-tab">
+                <div class="inner">
+                  <p>Shipa The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div class="author-info">
+                  <h6><span>Shipa </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt_md--40">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-tab1" href="#">
+                 <div class="thumb">
+                  <img class="w-100" src="./image/testimonial-1.jpg" alt="Testimonial Images">
+                 </div>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab2" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-2.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab3" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-3.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab4" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-4.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab5" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-5.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab6" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-6.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab7" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-7.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab8" href="#">
+                  <div class="thumb">
+                   <img class="w-100" src="./image/testimonial-8.jpg" alt="Testimonial Images">
+                  </div>
+                 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
     <!-- End Testimonial Main -->
     <!-- Start Blog Main -->
-    <section class="blog-main"></section>
+    <section class="blog-main ptb-120">
+      <div class="blog-main ptb-120 container">
+        <header class="blog-main-main-header text-center mb-5">
+          <span class="subtitle">Latest post</span>
+          <h1 class="title">Latest News</h1>
+          <p class="description">There are many variations of passages of Lorem Ipsum available,
+            <br>but the majority have suffered alteration.</p>
+        </header>
+        <div class="about-main-content content-defaut">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <figure>
+                  <img src="./image/blog-01.jpg" alt="">
+                  <figcaption class="text-left">
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">App Development</a></div>
+                      <h3 class="title"><a href="#">What is the Difference between Web and
+                        Brand.</a></h3>
+                    </div>
+                    <div class="porfolio-hover">
+                      <button class="btn-readmore">READ MORE</button>      
+                     </div>
+                  </figcaption>
+             
+                </figure>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <figure>
+                  <img src="./image/blog-02.jpg" alt="">
+                  <figcaption class="text-left">
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">App Development</a></div>
+                      <h3 class="title"><a href="#">What is the Difference between Web and
+                        Brand.</a></h3>
+                    </div>
+                    <div class="porfolio-hover">
+                      <button class="btn-readmore">READ MORE</button>      
+                     </div>
+                  </figcaption>
+               
+                </figure>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <figure>
+                  <img src="./image/blog-03.jpg" alt="">
+                  <figcaption class="text-left">
+                    <div class="content-top">
+                      <div class="content-top-title"><a href="#">App Development</a></div>
+                      <h3 class="title"><a href="#">What is the Difference between Web and
+                        Brand.</a></h3>
+                    </div>
+                    <div class="porfolio-hover">
+                      <button class="btn-readmore">READ MORE</button>      
+                     </div>
+                  </figcaption>
+                
+                </figure>
+              </div>
+              <div class="slide-button text-center mt-5">
+                <button class="btn-defaut">VIEW MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
     <!-- End Blog Main -->
     <!-- Start Brand Main -->
-    <section class="brand-main"></section>
+    <!-- <section class="brand-main ptb-120">
+      <header class="brand-main-main-header text-center mb-5">
+        <span class="subtitle">Our Clients</span>
+        <h1 class="title">Our Clients</h1>
+        <p class="description">There are many variations of passages of Lorem Ipsum available,
+          <br>but the majority have suffered alteration.</p>
+      </header>
+      <div class="brand-main-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="brand-list branstyle--2">
+                <li><img src="./image/brand-01.png" alt="Logo Images"></li>
+                <li><img src="./image/brand-02.png" alt="Logo Images"></li>
+                <li><img src="./image/brand-03.png" alt="Logo Images"></li>
+                <li><img src="./image/brand-04.png" alt="Logo Images"></li>
+                <li><img src="./image/brand-05.png" alt="Logo Images"></li>
+                <li><img src="./image/brand-06.png" alt="Logo Images"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
     <!-- End Brand Main -->
     <!-- Start Footer Main -->
-    <footer class="footer-main"></footer>
+    <!-- <footer class="footer-main">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6">
+                <div class="inner">
+                  <h2 class="text-white">Enough Talk, Let's Build <br>Something Together</h2>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="slide-button text-end">
+                  <button class="btn-defaut btn-large btn-opacity btn-slide-pink" href="#button">Read Out Now</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+             <div class="col-5">
+               <div class="inner">
+                 <div class="inner-logo">
+                   <a href="#"><img src="./image/logo-light.png" alt=""></a>
+                 </div>
+                 <p class="ft-text">Copyright © 2022 Imroz React Template. Built with love in Bangladesh All rights reserved.
+                </p>
+               </div>
+             </div>
+             <div class="col-2">
+              <div class="footer-link">
+                <h4>Quick Link</h4>
+                <ul class="ft-link">
+                  <li>
+                      <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li>
+                      <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="blog.html">Our Blog</a>
+                  </li>
+                  <li>
+                      <a href="team.html">Our Team</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">Contact</a>
+                  </li>
+              </ul>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="footer-link">
+                <h4>Company</h4>
+                <ul class="ft-link">
+                  <li>
+                      <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li>
+                      <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="blog.html">Our Blog</a>
+                  </li>
+                  <li>
+                      <a href="team.html">Our Team</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">Contact</a>
+                  </li>
+              </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="footer-link">
+                  <h4>Say Hello</h4>
+                  <ul class="ft-link">
+                      <li>Email: <a href="mailto:admin@example.com">admin@example.com</a></li>
+                      <li>Email: <a href="mailto:hr@example.com">hr@example.com</a></li>
+                      <li>Phone: <a href="mailto:hr@example.com">01957485123</a></li>
+                  </ul>
+                  <div class="social-share-inner">
+                      <ul class="social-share d-flex justify-content-start">
+                          <li><a href="#"><i class="lab la-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="lab la-linkedin-in"></i></a></li>
+                          <li><a href="#"><i class="lab la-twitter"></i></a></li>
+                          <li><a href="#"><i class="lab la-instagram"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
     <!-- End Footer Main -->
+
     <!-- JQUERY JS -->
     <script
       type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
+      src="./js/jquery-3.6.0.min.js"
     ></script>
     <script
       type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+      src="./js/jquery-migrate-1.4.1.min.js"
     ></script>
     <!-- BOOTSTRAP SCRIPT 5.0 -->
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- SLICK JS -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script type="text/javascript" src="./js/slick.min.js"></script>
