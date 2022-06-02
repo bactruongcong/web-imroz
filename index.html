@@ -11,9 +11,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     /> -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css" />
     <!-- SLICK LIBARY -->
-    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendor/slick.css" />
     <!-- // Add the new slick-theme.css if you want the default styling -->
     <!-- <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/> -->
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
@@ -33,7 +33,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- MAIN STYLE CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reponsive.css" />
     <title>Document</title>
   </head>
   <body>
@@ -43,7 +44,7 @@
       <div class="container-fluid">
         <div class="header-main-logo">
           <a class="navbar-brand" href="#">
-            <img src="./image/logo.png" alt="logo" />
+            <img src="./assets/image/logo.png" alt="logo" />
           </a>
         </div>
         <div class="header-main-menu d-flex align-items-center">
@@ -240,12 +241,12 @@
   </header>
   <!-- End Header Main/Area -->
   <!-- Start Menu popup -->
-  <div class="menu-popup custom-menu">
-    <div class="menu-inner container p-4">
+  <div class="menu-popup custom-menu d-lg-none">
+    <div class="menu-inner p-4">
       <header class="logo-menu-popup d-flex justify-content-between
       align-items-center pt-3 mb-3">
         <div class="header-img-logo col-lg-4 text-start">
-          <img src="./image/logo-symbol-dark.png" alt="">
+          <img src="./assets/image/logo-symbol-dark.png" alt="">
         </div>
         <div class="close-menu col-lg-4 text-end">
           <span class="closeTrigger">
@@ -674,7 +675,6 @@
     </main>
   </section>
   <!-- End Service Main-->
-  
   <!-- Start Portfolio Main -->
   <seciton class="portfolio-section">
     <div class="portfolio-main ptb-120">
@@ -691,7 +691,7 @@
           <div class="row">
             <div class="col-lg-4 col-sm-6 col-12">
               <figure>
-                <img src="./image/portfolio-4.jpg" alt="" />
+                <img src="./assets/image/portfolio-4.jpg" alt="" />
                 <figcaption class="text-center">
                   <div class="content-top">
                     <div class="content-top-title">
@@ -711,7 +711,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
               <figure>
-                <img src="./image/portfolio-5.jpg" alt="" />
+                <img src="./assets/image/portfolio-5.jpg" alt="" />
                 <figcaption class="text-center">
                   <div class="content-top">
                     <div class="content-top-title">
@@ -731,7 +731,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
               <figure>
-                <img src="./image/portfolio-6.jpg" alt="" />
+                <img src="./assets/image/portfolio-6.jpg" alt="" />
                 <figcaption class="text-center">
                   <div class="content-top">
                     <div class="content-top-title">
@@ -751,7 +751,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
               <figure>
-                <img src="./image/portfolio-7.jpg" alt="" />
+                <img src="./assets/image/portfolio-7.jpg" alt="" />
                 <figcaption class="text-center">
                   <div class="content-top">
                     <div class="content-top-title">
@@ -771,7 +771,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
               <figure>
-                <img src="./image/portfolio-8.jpg" alt="" />
+                <img src="./assets/image/portfolio-8.jpg" alt="" />
                 <figcaption class="text-center">
                   <div class="content-top">
                     <div class="content-top-title">
@@ -791,7 +791,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
               <figure>
-                <img src="./image/portfolio-9.jpg" alt="" />
+                <img src="./assets/image/portfolio-9.jpg" alt="" />
                 <figcaption class="text-center">
                   <div class="content-top">
                     <div class="content-top-title">
@@ -817,15 +817,14 @@
       </div>
     </div>
   </seciton>
-  <!-- End Portfolio Main -->
-  
+  <!-- End Portfolio Main --> 
   <!-- Start About Main -->
   <section class="about-main ptb-120">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
           <div class="about-left">
-            <img class="w-100" src="./image/about-3.jpg" alt="About Images" />
+            <img class="w-100" src="./assets/image/about-3.jpg" alt="About Images" />
           </div>
         </div>
         <div class="col-lg-7">
@@ -1141,56 +1140,56 @@
             <li class="nav-item" role="presentation">
               <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-tab1" href="#">
                <div class="thumb">
-                <img class="w-100" src="./image/testimonial-1.jpg" alt="Testimonial Images">
+                <img class="w-100" src="./assets/image/testimonial-1.jpg" alt="Testimonial Images">
                </div>
               </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab2" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-2.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-2.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab3" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-3.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-3.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab4" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-4.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-4.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab5" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-5.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-5.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab6" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-6.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-6.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab7" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-7.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-7.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-tab8" href="#">
                 <div class="thumb">
-                 <img class="w-100" src="./image/testimonial-8.jpg" alt="Testimonial Images">
+                 <img class="w-100" src="./assets/image/testimonial-8.jpg" alt="Testimonial Images">
                 </div>
                </a>
             </li>
@@ -1214,7 +1213,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <figure>
-                  <img src="./image/blog-01.jpg" alt="">
+                  <img src="./assets/image/blog-01.jpg" alt="">
                   <figcaption class="text-left">
                     <div class="content-top">
                       <div class="content-top-title"><a href="#">App Development</a></div>
@@ -1230,7 +1229,7 @@
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <figure>
-                  <img src="./image/blog-02.jpg" alt="">
+                  <img src="./assets/image/blog-02.jpg" alt="">
                   <figcaption class="text-left">
                     <div class="content-top">
                       <div class="content-top-title"><a href="#">App Development</a></div>
@@ -1246,7 +1245,7 @@
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <figure>
-                  <img src="./image/blog-03.jpg" alt="">
+                  <img src="./assets/image/blog-03.jpg" alt="">
                   <figcaption class="text-left">
                     <div class="content-top">
                       <div class="content-top-title"><a href="#">App Development</a></div>
@@ -1267,8 +1266,7 @@
           </div>
         </div>
     </section>
-    <!-- End Blog Main -->
-  
+    <!-- End Blog Main --> 
     <!-- Start Brand Main -->
     <section class="brand-main ptb-120">
       <div class="container">
@@ -1282,12 +1280,12 @@
             <div class="row">
               <div class="col-lg-12">
                 <ul class="brand-list">
-                  <li><img src="./image/brand-01.png" alt="Logo Images"></li>
-                  <li><img src="./image/brand-02.png" alt="Logo Images"></li>
-                  <li><img src="./image/brand-03.png" alt="Logo Images"></li>
-                  <li><img src="./image/brand-04.png" alt="Logo Images"></li>
-                  <li><img src="./image/brand-05.png" alt="Logo Images"></li>
-                  <li><img src="./image/brand-06.png" alt="Logo Images"></li>
+                  <li><img src="./assets/image/brand-01.png" alt="Logo Images"></li>
+                  <li><img src="./assets/image/brand-02.png" alt="Logo Images"></li>
+                  <li><img src="./assets/image/brand-03.png" alt="Logo Images"></li>
+                  <li><img src="./assets/image/brand-04.png" alt="Logo Images"></li>
+                  <li><img src="./assets/image/brand-05.png" alt="Logo Images"></li>
+                  <li><img src="./assets/image/brand-06.png" alt="Logo Images"></li>
               </ul>
             </div>
           </div>
@@ -1319,7 +1317,7 @@
              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                <div class="inner">
                  <div class="inner-logo">
-                   <a href="#"><img src="./image/logo-light.png" alt=""></a>
+                   <a href="#"><img src="./assets/image/logo-light.png" alt=""></a>
                  </div>
                  <p class="ft-text">Copyright © 2022 <a href="#">Imroz</a> React Template. Built with love in Bangladesh All rights reserved.
                 </p>
@@ -1395,10 +1393,10 @@
     <!-- End Footer Main -->
   
     <!-- JQUERY JS -->
-    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script
       type="text/javascript"
-      src="./js/jquery-migrate-1.4.1.min.js"
+      src="./assets/js/vendor/jquery-migrate-1.4.1.min.js"
     ></script>
     <!-- BOOTSTRAP SCRIPT 5.0 -->
     <!-- <script
@@ -1406,48 +1404,10 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script> -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.bundle.min.js"></script>
     <!-- SLICK JS -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(".carouselmain-items").slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true,
-          fade: true,
-          infinite: true,
-          easing: "fade",
-          infinite: true,
-          adaptiveHeight: true,
-          dots: true,
-        });
-      });
-    </script>
-    <script>
-      $('.togle-menu').on('click', function (e) {
-                e.preventDefault();
-                $('.menu-popup').addClass('open-menu');
-                $('html').css({
-                    overflow: "hidden"
-                })
-            }); 
-       $('.close-menu').on('click', function (e) {
-                e.preventDefault();
-                $('.menu-popup').removeClass('open-menu');
-                $('.main-menu-popup .nav-item > a').siblings('.dropdown-menu').removeClass('active').slideUp('400');
-                $('html').css({
-                    overflow: ""
-                })
-            });
-            $('.main-menu-popup .nav-item > a').on('click', function (e) {
-                e.preventDefault();
-                $(this).siblings('.dropdown-menu').toggleClass('active').slideToggle('400');
-                $('html').css({
-                    overflow: ""
-                })
-            });
-    </script>
+    <script type="text/javascript" src="./assets/js/vendor/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
   </body>
 </html>
