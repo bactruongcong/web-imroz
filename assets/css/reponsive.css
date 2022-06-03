@@ -5,7 +5,7 @@
     .d-lg-none {
       display: none !important;
     }
-    .carousel-main .carouselmain-items .carouselmain-item .carousel-banner {
+    .carousel-main .carouselmain-items .carouselmain-item{
       padding-top: 160px;
       padding-bottom: 160px;
       min-height: auto;
@@ -40,12 +40,13 @@
       .carouselmain-caption
       h1 {
       font-size: 72px;
+      padding-top: 30px;
     }
     .carousel-main .carouselmain-items .slick-prev,
     .carousel-main .carouselmain-items .slick-next {
       display: none !important;
     }
-    .carousel-main .carouselmain-items .carouselmain-item .carousel-banner {
+    .carousel-main .carouselmain-items .carouselmain-item{
       padding-top: 160px;
       padding-bottom: 170px;
       min-height: auto;
@@ -87,10 +88,10 @@
     /* End Testimonial Reponsisie */
     /* Start About Reposive */
     .about-main-content.content-defaut .container .row > [class*="col"] .porfolio-hover {
-      bottom: 10px;
+      /* bottom: 10px; */
   }
   .content-defaut .container .row > [class*="col"] figure:hover figcaption .content-top{
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
   }
   /* End About Reponsive */
   /* Start Footer Reponsive */
@@ -120,6 +121,7 @@
       h1 {
       font-size: 60px;
       margin-bottom: 18px;
+      padding-top: 30px;
     }
     .carousel-main .carouselmain-items .slick-prev,
     .carousel-main .carouselmain-items .slick-next {
@@ -132,7 +134,7 @@
       p {
       padding: 0 10%;
     }
-    .carousel-main .carouselmain-items .carouselmain-item .carousel-banner {
+    .carousel-main .carouselmain-items .carouselmain-item{
       min-height: auto;
       padding-top: 150px;
       padding-bottom: 150px;
@@ -163,6 +165,9 @@
       font-size: 24px;
       margin-bottom: 10px;
     }
+    .portfolio-main .title{
+      font-size: 40px;
+    }
      /* End Porfolio Reposnsise */
        /* Start About Reposnsise */
        .about-main .about-right{
@@ -171,6 +176,9 @@
     .about-main .row > [class*="col"] .nav-link{
       padding: 0.83333em 18px;
       font-size: 14px;
+     }
+     .about-main .title{
+       font-size: 40px;
      }
      /* .about-main .row > [class*="col"] .nav{
       border-radius: inherit;
@@ -205,11 +213,10 @@
         font-size: 40px;
       }
       .about-main-content.content-defaut .container .row > [class*="col"] .porfolio-hover {
-        bottom: 0;
-        margin-bottom: 10px;
+        
     }
     .content-defaut .container .row > [class*="col"] figure:hover figcaption .content-top{
-      transform: translateY(-50px);
+      /* transform: translateY(-50px); */
     }
       /* End Blog Reponsive */
       .brand-main-header .title{
@@ -279,6 +286,7 @@
       h1 {
       font-size: 60px;
       margin-bottom: 18px;
+      padding-top: 30px;
     }
     .carousel-main .carouselmain-items .slick-prev,
     .carousel-main .carouselmain-items .slick-next {
@@ -321,13 +329,13 @@
       .slide-button {
       margin-top: 30px;
     }
-    .carousel-main .carouselmain-items .carouselmain-item .carousel-banner {
+    .carousel-main .carouselmain-items .carouselmain-item{
       min-height: auto;
       padding-top: 150px;
       padding-bottom: 150px;
     }
     .carousel-main .carouselmain-items .slick-dots {
-      bottom: 80px;
+      bottom: 88px;
     }
   
     /* End Carousel Reponsise */
@@ -381,6 +389,9 @@
      }
      .about-main .about-right{
       padding-top: 40px;
+    }
+    .about-main .title{
+      font-size: 32px;
     }
      /* End About Reposnsise */
      
